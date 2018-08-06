@@ -4,11 +4,11 @@ html {
 }
 
 header {
-    background: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    margin: 0 auto;
-    color: #cccccc;
-    max-height: 60px;
+    /* background: #ffffff; */
+    /* border-bottom: 2px solid #cccccc; */
+    /* margin: 0 auto; */
+    /* color: #cccccc; */
+    /* max-height: 60px; */
 }
 
 body {
@@ -21,6 +21,7 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 28px;
+    color: #ffffff;
 }
 
 input[type=text], select, textarea {
@@ -69,7 +70,7 @@ input[type=submit] {
 }
 
 .content-inside {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .footer {
@@ -78,13 +79,14 @@ input[type=submit] {
     background: #666666;
     color: #cccccc;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    border-top: 6px solid #4aaaa5;
 }
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     padding-bottom: 10px;
+    color: #4aaaa5;
 }
 
 hr {
@@ -94,4 +96,33 @@ hr {
     border-top: 2px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+
+#full {
+    clear: both;
+    width: 100%;
+    background: #eee;
+    overflow: auto;
+    margin: 0 auto;
+}
+  
+#division {
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #cccccc;
+    height: 80px;
+    padding-left: 69.5%;
+}
+  
+aside {
+    background: #4aaaa5;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    height: 80px;
+    margin-left: 280px;
+}
+
+.link {
+    
 }
