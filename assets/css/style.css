@@ -31,12 +31,12 @@ aside {
     margin-left: 280px;
 }
 
-a {
+.image {
     text-decoration: none;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 30px;
     color: #777777;
-
+    padding-bottom: 60px;
 }
 
 body {
@@ -132,3 +132,24 @@ input[type=submit] {
     border-top: 6px solid #4aaaa5;
     line-height: 120px;
 }
+
+.banner {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    top: 350px;
+    height: 50px;
+    font-size: 30px;
+}
+  
+.ban-1 {
+    top: 53%;
+    left: 20.07%;
+}
+
+.ban-2 {
+    top: 49%;
+    left: 38.1%;
+}  
