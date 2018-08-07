@@ -1,6 +1,8 @@
 html {
     height: 100%;
     margin: 0;
+    overflow-y: scroll;
+    overflow-x: visible;
 }
 
 #full {
@@ -43,6 +45,8 @@ body {
     background-image: url("../images/bg.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -94,7 +98,7 @@ input[type=submit] {
     background-color: #ffffffff;
     padding: 20px;
     margin-top: 40px;
-
+    border: 1px solid #cccccc;
 }
 
 #bio-image {
@@ -112,6 +116,7 @@ input[type=submit] {
     padding: 20px;
     margin-top: 40px;
     background-color: #ffffff;
+    border: 1px solid #cccccc;
 }
 
 .content-inside {
@@ -119,11 +124,11 @@ input[type=submit] {
 }
 
 .footer {
-    height: 50px;
+    height: 80px;
     margin-top: 50px;
     background: #666666;
     color: #cccccc;
     text-align: center;
     border-top: 6px solid #4aaaa5;
-    line-height: 75px;
+    line-height: 120px;
 }
