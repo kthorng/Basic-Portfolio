@@ -26,7 +26,7 @@ aside {
     background: #4aaaa5;
     padding: 10px;
     float: left;
-    width: 15%;
+    width: 14.5%;
     height: 80px;
     margin-left: 280px;
     line-height: 80px;
@@ -105,7 +105,6 @@ input[type=submit] {
     max-width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
     float: left;
 }
 
@@ -120,7 +119,9 @@ input[type=submit] {
 }
 
 .content-inside {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
@@ -153,26 +154,26 @@ input[type=submit] {
 }
   
 .ban-1 {
-    top: 53%;
-    left: 20.07%;
+    top: 49%;
+    left: 21.4%;
 }
 
 .ban-2 {
-    top: 53%;
-    left: 42.7%;
+    top: 49%;
+    left: 44.03%;
 }
 
 .ban-3 {
-    top: 87.3%;
-    left: 20.07%;
+    top: 83.3%;
+    left: 21.4%;
 }
 
 .ban-4 {
-    top: 87.3%;
-    left: 42.7%;
+    top: 83.3%;
+    left: 44.03%;
 }
 
 .ban-5 {
-    top: 121.8%;
-    left: 20.07%;
+    top: 117.8%;
+    left: 21.4%;
 }
