@@ -19,7 +19,7 @@ html {
     border-bottom: 2px solid #cccccc;
     height: 80px;
     padding-left: 1030px;
-    line-height: 80px;
+    line-he ight: 80px;
 }
   
 aside {
@@ -34,9 +34,26 @@ aside {
 
 a {
     text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
     color: #777777;
+    display: inline-block;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 20px;
+    background: #000;
+    transition: width .3s;
+}
+
+a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 body {
@@ -98,7 +115,7 @@ input[type=submit] {
     background-color: #ffffffff;
     padding: 20px;
     margin-top: 40px;
-    border: 1px solid #cccccc;
+    border: 1px solid #cccccc;    
 }
 
 #bio-image {
@@ -136,7 +153,6 @@ input[type=submit] {
 
 .image {
     text-decoration: none;
-    padding-left: 5px;
     padding-right: 35px;
     padding-bottom: 60px;
 }
@@ -145,7 +161,7 @@ input[type=submit] {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
-    width: 290px;
+    width: 300px;
     position: absolute;
     top: 350px;
     height: 50px;
@@ -155,25 +171,25 @@ input[type=submit] {
   
 .ban-1 {
     top: 370px;
-    left: 320px;
+    left: 310px;
 }
 
 .ban-2 {
     top: 370px;
-    left: 665px;
+    left: 650px;
 }
 
 .ban-3 {
     top: 633px;
-    left: 320px;
+    left: 310px;
 }
 
 .ban-4 {
     top: 633px;
-    left: 665px;
+    left: 650px;
 }
 
 .ban-5 {
     top: 895px;
-    left: 320px;
+    left: 310px;
 }
