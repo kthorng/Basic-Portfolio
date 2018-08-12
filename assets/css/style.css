@@ -1,6 +1,5 @@
 html {
     height: 100%;
-    width: 1510px;
     margin: 0;
     overflow-y: scroll;
     overflow-x: visible;
@@ -17,7 +16,7 @@ html {
     background: #ffffff;
     padding: 10px;
     border-bottom: 2px solid #cccccc;
-    padding-left: 1030px;
+    padding-left: 1225px;
     padding-top: 40px;
     padding-bottom: 24px;
 }
@@ -28,7 +27,7 @@ aside {
     float: left;
     width: 220px;
     height: 80px;
-    margin-left: 275px;
+    margin-left: 473px;
     line-height: 80px;
 }
 
@@ -158,41 +157,4 @@ input[type=submit] {
     text-decoration: none;
     padding-right: 35px;
     padding-bottom: 60px;
-}
-
-.banner {
-    background-color: #F38F56;
-    color: white;
-    text-align: center;
-    width: 300px;
-    position: absolute;
-    top: 350px;
-    height: 50px;
-    font-size: 24px;
-    line-height: 50px;
-}
-  
-.ban-1 {
-    top: 370px;
-    left: 310px;
-}
-
-.ban-2 {
-    top: 370px;
-    left: 650px;
-}
-
-.ban-3 {
-    top: 633px;
-    left: 310px;
-}
-
-.ban-4 {
-    top: 633px;
-    left: 650px;
-}
-
-.ban-5 {
-    top: 895px;
-    left: 310px;
 }
